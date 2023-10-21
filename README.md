@@ -21,10 +21,10 @@ To get started, clone this repository to your local machine using the following 
 
 ### Install Dependencies
 Install the project dependencies by running:
->  **npm install **
+> **npm install**
 
 ### Run the Project
 Start the development server using:
->  ** npm run dev ** 
+> **npm run dev** 
 
 
