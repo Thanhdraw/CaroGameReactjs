@@ -1,0 +1,18 @@
+/* Counter.css */
+
+.counter {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}

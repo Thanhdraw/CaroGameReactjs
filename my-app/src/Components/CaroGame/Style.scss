@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  grid-template-rows: repeat(3, 10rem);
+
+  justify-content: center;
+  grid-gap: 25px;
+}
+.game-cells {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  box-shadow: rgba(12, 13, 14, 0.2) 2px 8px 24px;
+}
+.game-cells.is-X {
+  color: #2cccff;
+}
+.game-cells.is-O {
+  color: #ff6651;
+}
+.game-reset {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  translate: calc(110%);
+  margin: 50px 25px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f62682;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.game-winner {
+  padding: 10px;
+  font-size: 20px;
+  color: #20e3b2;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
