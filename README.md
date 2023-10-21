@@ -14,7 +14,7 @@ Make sure you have Node.js and npm (or Yarn) installed on your system.
 
 To get started, clone this repository to your local machine using the following command:
 
->  **git clone https://github.com/Thanhdraw/CaroGameReactjs.git **
+>  **git clone https://github.com/Thanhdraw/CaroGameReactjs.git**
 
 ### Navigate to the Project Directory
 >  **cd my-app**
